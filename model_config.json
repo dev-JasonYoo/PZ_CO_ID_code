@@ -1,0 +1,38 @@
+{
+    "file": {
+        "relz": "data/relz.csv",
+        "hsc": "data/hsc.csv"
+    },
+    "model": {
+        "PDF_MC": {
+            "num_input_features": 5,
+            "num_hidden_neurons": 128,
+            "num_hidden_layers": 5,
+            "num_epochs": 300,
+            "learning_rate": 0.001,
+            "size_batch": 32,
+            "momentum": 0.9
+        },
+        "PhotZ_LR": {
+            "num_input_features": 5,
+            "num_hidden_neurons": 128,
+            "num_hidden_layers": 5,
+            "num_epochs": 300,
+            "learning_rate": 0.001,
+            "size_batch": 32,
+            "momentum": 0.9
+        },
+        "CO_BC": {
+            "num_input_features": 0,
+            "num_hidden_neurons": [
+                128,
+                256,
+                8
+            ],
+            "num_hidden_layers": 3,
+            "num_epochs": 300,
+            "learning_rate": 0.001,
+            "size_batch": 32
+        }
+    }
+}
