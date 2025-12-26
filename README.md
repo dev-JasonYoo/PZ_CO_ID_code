@@ -45,3 +45,5 @@ The Python file contains various functions facilitating preprocessing, such as r
 
 ## `plotting_routine.py`
 The Python file contains various functions to plot the dataset properties and results. 
+
+[![DOI](https://zenodo.org/badge/978995309.svg)](https://doi.org/10.5281/zenodo.18064968)
